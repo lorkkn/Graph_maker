@@ -11,7 +11,7 @@ void rotate(int size, char** Matrix) {
 }
 
 double f(double x) {
-	return tan(sin(x));
+	return 0.5 * x*x;
 }
 
 void graphMake(int size,double step) {
